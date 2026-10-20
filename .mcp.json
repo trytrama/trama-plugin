@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trama": {
+      "type": "http",
+      "url": "https://tra-2797.invalid/mcp"
+    }
+  }
+}

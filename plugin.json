@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "trama",
+  "version": "0.1.0",
+  "description": "Work your Trama sales pipeline from the chat: plan your day, log what happened with a customer, sweep follow-ups, review an opportunity before a call, and read reports on your team and pipeline.",
+  "author": {
+    "name": "Trama",
+    "url": "https://trama.so"
+  },
+  "homepage": "https://trama.so",
+  "repository": "https://github.com/trytrama/trama-plugin",
+  "license": "MIT",
+  "keywords": ["crm", "sales", "tourism", "travel", "whatsapp", "pipeline"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Trama",
+        "shortDescription": "Your tourism sales pipeline",
+        "longDescription": "Plan your day, log what happened with a customer, sweep follow-ups, review an opportunity before a call, draft a WhatsApp campaign and read reports on your team and pipeline, on your business's Trama data.",
+        "developerName": "Trama",
+        "category": "Business & Operations",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://trama.so",
+        "privacyPolicyURL": "https://trama.so/pp",
+        "termsOfServiceURL": "https://trama.so/tc",
+        "supportURL": "https://trama.so/contact",
+        "defaultPrompt": [
+          "Usá Trama para preparar mi día.",
+          "Usá Trama para ver a quién tengo que escribirle esta semana.",
+          "Usá Trama para pasarme el resumen de un cliente antes de llamarlo."
+        ]
+      }
+    }
+  }
+}
