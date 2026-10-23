@@ -3,7 +3,7 @@
   "mcpServers": {
     "trama": {
       "type": "streamable-http",
-      "url": "https://tra-2797.invalid/mcp",
+      "url": "https://mcp.trama.so/mcp",
       "extensions": {
         "com.openai": {
           "auth": {
