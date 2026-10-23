@@ -14,11 +14,13 @@ businesses that sell over WhatsApp. The plugin lets you work your sales
 pipeline from the chat, on your business's data and with your own user's
 permissions.
 
-> **Estado: en preparación.** Todavía no está en los directorios de Claude ni de
-> ChatGPT, y el servidor al que se conecta no está publicado: por ahora no se
-> puede instalar. · **Status: in preparation.** Not yet listed in the Claude or
-> ChatGPT directories, and its server is not live yet: it can't be installed
-> for now.
+> **Estado: el servidor ya anda, el plugin todavía no está en los
+> directorios.** Mientras tanto podés conectar el servidor como conector
+> propio con `https://mcp.trama.so/mcp`
+> ([cómo](https://trama.so/es/docs/ai/mcp)). · **Status: the server is live,
+> the plugin is not listed yet.** Until it is, add the server as a custom
+> connector with `https://mcp.trama.so/mcp`
+> ([how](https://trama.so/en/docs/ai/mcp)).
 
 ## Cómo se conecta · How to connect
 

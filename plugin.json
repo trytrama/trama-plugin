@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "trama",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Work your Trama sales pipeline from the chat: plan your day, log what happened with a customer, sweep follow-ups, review an opportunity before a call, and read reports on your team and pipeline.",
   "author": {
     "name": "Trama",
@@ -16,18 +16,22 @@
       "interface": {
         "displayName": "Trama",
         "shortDescription": "Your tourism sales pipeline",
-        "longDescription": "Plan your day, log what happened with a customer, sweep follow-ups, review an opportunity before a call, draft a WhatsApp campaign and read reports on your team and pipeline, on your business's Trama data.",
+        "longDescription": "Trama is the CRM and AI sales agent that tourism businesses use to sell over WhatsApp, Instagram and their website. This plugin lets you work your Trama organization from ChatGPT, with your own Trama user and only what your role allows.\n\nAsk ChatGPT to plan your day from the opportunities that need you, brief you on a customer before a call, read a conversation and sum up what the customer asked for, log a follow-up or a reminder, move an opportunity to its next stage, update a customer's details, draft a WhatsApp campaign message, look up a product in your catalog or add a new one, and read reports on your pipeline, your sellers and your ads.\n\nEach tool maps to one action in Trama and says whether it reads or changes data. Changes that cannot be undone, such as marking an opportunity as won, show you a preview first and run only after you confirm. Messaging a customer on your behalf is a separate permission that stays off unless you turn it on when you connect.\n\nYou authorize the connection at account.trama.so and choose the organization it works on. Your organization's owners can limit what AI connections may do, and you can revoke access anytime from Settings, Connect AI. Every call is logged for your organization's admins, without its content.\n\nYou need a Trama account that belongs to an organization. Some tools depend on what your organization has turned on in Trama.",
         "developerName": "Trama",
         "category": "Business & Operations",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/composer-icon.png",
+        "brandColor": "#000000",
+        "brandColorDark": "#FDC700",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://trama.so",
-        "privacyPolicyURL": "https://trama.so/pp",
-        "termsOfServiceURL": "https://trama.so/tc",
-        "supportURL": "https://trama.so/contact",
+        "privacyPolicyURL": "https://trama.so/en/pp",
+        "termsOfServiceURL": "https://trama.so/en/tc",
+        "supportURL": "https://trama.so/en/contact",
         "defaultPrompt": [
-          "Usá Trama para preparar mi día.",
-          "Usá Trama para ver a quién tengo que escribirle esta semana.",
-          "Usá Trama para pasarme el resumen de un cliente antes de llamarlo."
+          "Use Trama to plan my day.",
+          "Use Trama to show who I need to follow up with this week.",
+          "Use Trama to brief me on a customer before I call them."
         ]
       }
     }
